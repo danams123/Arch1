@@ -15,7 +15,6 @@ int main(int argc, char **argv)
 
     char str_buf[MAX_LEN];
     int input;
-
     fgets(str_buf, MAX_LEN, stdin);
     sscanf(str_buf, "%d", &input);
     assFunc(input);
