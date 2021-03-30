@@ -1,9 +1,5 @@
 section	.rodata		
-	format_string: db "%d", 10, 0
-        check: db "in here", 10, 0
-        check1: db "in here1", 10, 0
-        check2: db "in here2", 10, 0
-        check3: db "in here3", 10, 0	
+	format_string: db "%d", 10, 0	
 
 section .text                   
         global assFunc

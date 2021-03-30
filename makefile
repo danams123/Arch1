@@ -34,11 +34,11 @@ ass: ass.o start.o
 	gcc -m32 -g -Wall -o ass ass.o start.o
 
 # Depends on the source and header files
-ass.o: main_task1Assignment1.c
-	gcc -g -Wall -m32  -c -o ass.o main_task1Assignment1.c
+ass.o: main_task2Assignment1.c
+	gcc -g -Wall -m32  -c -o ass.o main_task2Assignment1.c
  
-start.o: asm_task1Assignment1.s
-	nasm -g -f elf -w+all -o start.o asm_task1Assignment1.s
+start.o: asm_task2Assignment1.s
+	nasm -g -f elf -w+all -o start.o asm_task2Assignment1.s
 
 
 #tell make that "clean" is not a file name!
